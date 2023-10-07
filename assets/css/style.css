@@ -1,0 +1,31 @@
+
+.centrar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.centrar-imagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    .imagenes-sticker {
+        width: 200px;
+        height: auto;
+    }
+}
+
+#ponyIzzy{
+height: 200px;
+width: auto;
+}
+
+
+.reUno{
+
+    color: darkorchid;
+}

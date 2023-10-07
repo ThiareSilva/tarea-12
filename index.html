@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Tarea-12</title>
+  </head>
+  <body>
+    <div class="centrar">
+      <h1 class="reUno">Requerimiento 1</h1>
+      <h5>Click en la imagen para ver el borde u ocultarlo</h5>
+      <img
+        onclick="handleClickIzzy()"
+        id="ponyIzzy"
+        src="./assets/images/ezgif-1-f89c30d942.jpg"
+        alt="izzy_uno"
+      />
+    </div>
+    <div class="centrar">
+      <h1 class="reUno">Requerimiento 2</h1>
+      <h5>Se pueden llevar hasta 10 Stickers en total</h5>
+      <div class="centrar-imagenes">
+        <div class="centrar">
+          <img
+            class="imagenes-sticker"
+            src="./assets/images/izzyr2.png"
+            alt="izzy_dos"
+          /><br />
+          <input id="txtNum1" type="number" />
+        </div>
+        <div class="centrar">
+          <img
+            class="imagenes-sticker"
+            src="./assets/images/waifu.png"
+            alt="fluttershy"
+          /><br />
+          <input id="txtNum2" type="number" />
+        </div>
+        <div class="centrar">
+          <img
+            class="imagenes-sticker"
+            src="./assets/images/posey.jpg"
+            alt="posey"
+          /><br />
+          <input id="txtNum3" type="number" />
+        </div>
+      </div>
+    </div>
+    <div class="centrar">
+        <span id="req2Resp">Llevas 0 stickers</span>
+        <button onclick="requerimientoDos()">Verificar</button>
+      </div>
+    <div class="centrar">
+      <h1 class="reUno">Requerimiento 3</h1>
+      <h5>Ingresa el Password</h5>
+      <div class="centrar-imagenes">
+        <div class="centrar">
+          <select id="pass1">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="9">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+        <div class="centrar">
+          <select id="pass2">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="9">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+        <div class="centrar">
+          <select id="pass3">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="9">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="centrar">
+      <span id="passResp"> </span>
+      <button onclick="requerimientoTres()">Ingresar</button>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
